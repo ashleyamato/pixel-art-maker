@@ -9,10 +9,16 @@ document.addEventListener("DOMContentLoaded", function() {
      tile.style.border = '1px solid lightgrey'
      var gridContainer= document.getElementsByClassName('grid-container')[0]
      gridContainer.appendChild(tile)
-     gridContainer.style.backgroundColor = 'lightgrey'
+
+     var buttonClicked = function(event) {
+       event.target.style.backgroundColor = 'red'
+     }
+     gridContainer.addEventListener('click', buttonClicked)
+
+
    }
 
-
+//add event listener to div that contains all the boxes. use event target
 
 
  })
