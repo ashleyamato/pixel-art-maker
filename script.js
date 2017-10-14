@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
       console.log(event.target)
     }
 
-   for (let i = 0; i <= 360; i++) {
+   for (let i = 0; i <= 965; i++) {
      var tile = document.createElement('div')
-     tile.style.width = '5%'
+     tile.style.width = '2%'
      tile.style.height = '5%'
      tile.style.float = "left"
      tile.style.backgroundColor = 'white'
