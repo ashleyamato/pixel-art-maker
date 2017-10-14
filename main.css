@@ -41,5 +41,38 @@ html, body {
 .palette {
   flex: 1;
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   border: 5px solid yellow;
+}
+
+.colors {
+  width: 20px;
+  height: 20px;
+  border: 5px solid black;
+  float: left;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
 }
