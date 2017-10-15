@@ -21,33 +21,28 @@ html, body {
   background-color: white;
   border: 10px solid red;
   height: 30%;
-  width: 50%;
+  width: 40%;
   text-align: center;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-right: 20%;
   padding: 0;
   margin-top: 0;
+  box-shadow: 10px 10px 5px darkgrey;
 }
 
 .title {
   font-family: 'Modak', cursive;
-  color: green;
   font-size: 900%;
   margin: 0;
-}
-
-.bottom {
-  flex: 3;
-  display: flex;
-  border: 5px solid green;
-  flex-direction: row;
+  background: -webkit-linear-gradient(lightgreen, #225A00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .grid-container {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  border: 5px solid purple;
   height: 100vh;
   width: 100vw;
 }
@@ -57,10 +52,25 @@ html, body {
   position: absolute;
   border: 10px solid yellow;
   background-color: white;
-  padding: 30px;
+  padding: 40px;
   margin-top: 20%;
   margin-left: 80%;
+  margin-right: 80%;
+  padding-top: 10px;
   width: 30px;
+  box-shadow: 10px 10px 5px darkgrey;
+}
+
+.directions {
+  font-family: 'Modak', cursive;
+  font-size: 170%;
+  margin-left: -27px;
+  padding-right: 30px;
+  color: #3484CB;
+  text-shadow: 1px 1px lightgrey;
+  /*background: -webkit-linear-gradient(lightblue, #0B5DD6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 }
 
 .colors {
@@ -92,4 +102,12 @@ html, body {
 
 .purple {
   background-color: purple;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.white {
+  background-color: white;
 }
